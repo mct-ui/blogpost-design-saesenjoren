@@ -81,10 +81,9 @@ h2 {
   margin: 0 0 24px;
 }
 
-*+h2{
-    margin-top: 48px;
+* + h2 {
+  margin-top: 48px;
 }
-
 
 h3 {
   font-size: 18px;
@@ -177,6 +176,33 @@ a:focus {
     font-size: 58px;
     line-height: 64px;
   }
+}
+
+/* 
+    Comonents: author
+*/
+
+.c-author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 16px;
+}
+
+.c-author__image {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.c-author__name {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.c-author__name,
+.c-author__meta {
+  margin-bottom: 0;
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
